@@ -35,3 +35,11 @@ SELECT @변수이름 := 대입값;
 ```
 HAVING()
 ```
+### 4. LIKE절
+```
+WHERE (컬럼명) LIKE 'A%' #A로 시작하는 문자 찾기
+WHERE (컬럼명) LIKE '%A' #A로 끝나는 문자 찾기
+WHERE (컬럼명) LIKE '%A%' #A를 포함하는 문자 찾기
+WHERE (컬럼명) LIKE'[^A]' #A로 시작하지 않는 모든 문자 찾기
+WHERE (컬럼명) LIKE '[ABCF]' #A/B/C/F로 시작하는 문자 찾기
+```
