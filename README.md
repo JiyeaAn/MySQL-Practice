@@ -47,3 +47,10 @@ WHERE (컬럼명) LIKE '[ABCF]' #A/B/C/F로 시작하는 문자 찾기
 ```
 SELECT IFNULL(Column명, "Null일 경우 대체 값") FROM 테이블명
 ```
+### 6. JOIN
+```
+# INNER JOIN: 교집합
+# OUTER JOIN: 특정 테이블을 기준
+## LEFT OUTER JOIN
+## RIGHT OUTER JOIN
+```
