@@ -43,3 +43,7 @@ WHERE (컬럼명) LIKE '%A%' #A를 포함하는 문자 찾기
 WHERE (컬럼명) LIKE'[^A]' #A로 시작하지 않는 모든 문자 찾기
 WHERE (컬럼명) LIKE '[ABCF]' #A/B/C/F로 시작하는 문자 찾기
 ```
+### 5. 칼럼값이 NULL을 반환할 때, 다른 값으로 출력할 수 있도록 하는 함수
+```
+SELECT IFNULL(Column명, "Null일 경우 대체 값") FROM 테이블명
+```
